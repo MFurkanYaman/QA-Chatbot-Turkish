@@ -1,10 +1,10 @@
 # QA-Chatbot-Turkish
 TR:
 --------------------------------------------------------------
-Proje Açıklaması
+**Proje Açıklaması:**
 Bu proje, Türkçe dilinde soru-cevap (QA) chatbot geliştirmek amacıyla çeşitli doğal dil işleme (NLP) araçlarını kullanmaktadır. Projenin temel amacı, kullanıcıların sordukları sorulara uygun ve doğru cevaplar vermek için metinleri anlamak ve işlemek üzerine odaklanmaktadır. Aşağıda, projede kullanılan ana araçlar ve kitaplıkların detaylı açıklamaları verilmiştir:
 
-Kullanılan Araçlar ve Kitaplıklar
+**Kullanılan Araçlar ve Kitaplıklar**
 Sentence-Transformers:
 Sentence-Transformers, metin verilerini yüksek boyutlu gömme (embedding) vektörlerine dönüştüren bir araçtır. Bu vektörler, metinlerin anlamlarını sayısal bir biçimde temsil eder. Projede, kullanıcıların sorduğu soruların metin temsillerini elde etmek ve bu temsiller üzerinden benzerlik aramaları gerçekleştirmek için kullanılmıştır. Sentence-Transformers, çeşitli önceden eğitilmiş modeller sunarak farklı diller ve metin türleri için gömme vektörleri oluşturmayı mümkün kılar. Bu sayede, projemizde Türkçe dilinde verimli ve etkili bir şekilde metin temsilleri oluşturulabilmiştir.
 
@@ -20,10 +20,10 @@ FAISS, yüksek boyutlu vektörleri hızlı ve verimli bir şekilde aramak için 
 
 EN:
 --------------------------------------------------------------
-Project Description
+**Project Description:**
 This project is focused on developing a question-answering (QA) chatbot in Turkish using various natural language processing (NLP) tools. The main goal of the project is to understand and process text to provide appropriate and accurate responses to user queries. Below is a detailed description of the key tools and libraries used in this project:
 
-Tools and Libraries Used
+**Tools and Libraries Used**
 Sentence-Transformers:
 Sentence-Transformers is a tool used to convert text data into high-dimensional embedding vectors. These vectors provide numerical representations of the text, which are used for similarity searches. In this project, Sentence-Transformers is employed to obtain text representations of user queries, which are then used to perform similarity searches. The tool offers various pre-trained models that allow for the creation of embeddings suitable for different languages and text types. This enables efficient and effective text representation for Turkish in our project.
 
